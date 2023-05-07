@@ -1,0 +1,3 @@
+APP_ID = APP01
+APP_NAME = NUXT3+Vuetify3 Sample
+SITE_TITLE = Site Title

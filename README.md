@@ -17,6 +17,9 @@ npm install
 pnpm install
 ```
 
+Create .env file.  
+(Please refer /dev_doc/env_temp.txt)
+
 ## Development Server
 
 Start the development server on http://localhost:3000
