@@ -1,0 +1,36 @@
+{
+  "default":[
+    {
+      "groupName": "Main",
+      "groupIcon": "mdi-view-dashboard",
+      "menuItems":[
+        {
+          "title" : "Top",
+          "to" : "/"
+        },
+        {
+          "title" : "About",
+          "to" : "/about"
+        },
+        {
+          "title" : "Counter",
+          "to" : "/compCounter"
+        },
+        {
+          "title" : "UserName",
+          "to" : "/name"
+        }
+      ]
+    },
+    {
+      "groupName": "Others",
+      "groupIcon": "mdi-account",
+      "menuItems":[
+        {
+          "title" : "PlainCounter",
+          "to" : "/plainCounter"
+        }
+      ]
+    }
+  ]
+}
