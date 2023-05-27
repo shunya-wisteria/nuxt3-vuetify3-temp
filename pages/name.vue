@@ -16,5 +16,9 @@ const store = inject(StoreKey);
 // --- Begin of Hook ---
 onMounted(() => store.pageTitle = "User Name")
 const title = computed(() => store.pageTitle)
+const headTitle = computed(()=>store.headTitle)
+useHead({
+  title : headTitle
+})
 // --- End of Hook ---
 </script>

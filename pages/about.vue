@@ -27,4 +27,8 @@ const store = inject(StoreKey);
 
 onMounted(() => store.pageTitle = "About")
 const title = computed(()=> store.pageTitle)
+const headTitle = computed(()=>store.headTitle)
+useHead({
+  title : headTitle
+})
 </script>

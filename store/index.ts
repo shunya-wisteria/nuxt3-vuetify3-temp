@@ -62,6 +62,11 @@ export default function store()
       state.pageTitle = value
     },
 
+    get headTitle(){
+      const headTitle = (state.pageTitle == null || state.pageTitle == "") ? state.siteTitle : state.pageTitle + " - " + state.siteTitle
+      return headTitle
+    },
+
     get modalContent(){
       return state.modalContent
     },
