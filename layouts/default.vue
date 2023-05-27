@@ -67,6 +67,7 @@
       <v-card-title>{{ modalContent.title }}</v-card-title>
       <v-card-text
         v-html="modalContent.body"
+        style="font-size: 90%;"
       >
       </v-card-text>
       <v-card-actions>

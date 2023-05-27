@@ -20,8 +20,12 @@ provide(StoreKey, Store());
 
   body{
     font-family: 'Open Sans','Rounded Mplus 1c', Segoe UI, "メイリオ", Meiryo, sans-serif;
-    color:#737373;
   }
+
+  .v-application{
+    color: #636363;
+  }
+
 
   h1{
     font-family: 'Didact Gothic';

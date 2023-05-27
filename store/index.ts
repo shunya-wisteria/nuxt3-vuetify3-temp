@@ -15,7 +15,8 @@ export default function store()
     pageTitle : "",
     modalContent : {
       enabled : false, title : '', body:''
-    }
+    },
+    loginInfo : "<b>Attention</b><p>login informationをここに書く</p>"
   });
 
   interface  ModalContent{ enabled:boolean; title:string; body:string; }
@@ -65,6 +66,10 @@ export default function store()
     get headTitle(){
       const headTitle = (state.pageTitle == null || state.pageTitle == "") ? state.siteTitle : state.pageTitle + " - " + state.siteTitle
       return headTitle
+    },
+
+    get loginInfo(){
+      return state.loginInfo
     },
 
     get modalContent(){
